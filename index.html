@@ -12,16 +12,7 @@
       background-color: rgba(0, 255, 255, 0);
       color: white;
     }
-    .invisible-button {
-      background: none;
-      border: none;
-      color: transparent;
-      cursor: pointer;
-      position: fixed;
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
+
   </style>
 </head>
 <body>
@@ -29,32 +20,14 @@
     <h1 class="display-4">Feliz 1 ano e 4 meses, você é o amor da minha vida.</h1>
     <p class="lead">Sei que você é inteligente, então te proponho um enigma simples.</p>
     <br><br><br>
-    <button class="btn btn-primary" onclick="exibirBinario()">Exibir Binário</button>
-    <br>
-    <button class="btn btn-info" onclick="mostrarDica()">Dica</button>
-    <button class="btn btn-info" onclick="mostrarDica2()">Dica 2</button>
-  </div>
 
-  <button class="invisible-button" onclick="window.location.href = 'resposta.html';">Ir para Resposta</button>
+    
+  <button class="invisible-button" onclick="window.location.href = 'resposta.html';">Ver cartinha</button>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script>
-    function mostrarDica() {
-      var dica = "Números binários, hmmm, será que dá pra converter?";
-      alert(dica);
-    }    
-    function mostrarDica2() {
-      var dica2 = "Cinerária";
-      alert(dica2);
-    }
 
-      function exibirBinario() {
-        var binario = "01110100 01101000 01110011 01101111 01101000 00100000 01110111 01101100 01111001 01100001 01110110 00100000 01111010 01110000 01111010 ";
-        alert(binario);
-      }
-    </script>
     
 </body>
 </html>
